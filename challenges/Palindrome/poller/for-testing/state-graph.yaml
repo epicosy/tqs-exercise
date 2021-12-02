@@ -1,0 +1,9 @@
+---
+nodes:
+- name: start
+- name: banner
+- name: request
+  continue: .9
+edges:
+- start: banner
+- banner: request

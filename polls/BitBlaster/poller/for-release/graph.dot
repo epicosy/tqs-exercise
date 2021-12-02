@@ -1,0 +1,8 @@
+digraph G {
+    go [label="go"];
+    start [label="start", shape=box];
+    end [label="end", shape=triangle];
+    go -> end [label="0.01x"];
+    go -> go [label="0.99x"];
+    start -> go;
+}

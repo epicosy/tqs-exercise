@@ -1,0 +1,7 @@
+digraph G {
+    start [label="start", shape=box];
+    banner [label="banner"];
+    request [label="request\ncontinue=0.90", shape=triangle];
+    start -> banner;
+    banner -> request;
+}
